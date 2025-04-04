@@ -1,13 +1,16 @@
 
 import React from "react";
 import './../styles/App.css';
+import Display from "./Display";
 
 const App = () => {
   return (
     <div>
-      <h1>Welcome to my website</h1>
-      <p>This is the content of my website</p>
-      <footer>&copy 2023 My website. All rights reserved.</footer>
+     <Display
+      header="Welcome to my website."
+      children="This is the content of my website."
+      footer="&copy; 2024 My website. All rights reserved"
+     />
     </div>
   )
 }
