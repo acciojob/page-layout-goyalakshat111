@@ -6,7 +6,7 @@ const Display = ({header,children,footer})=>{
         <div>
             <h1>{header}</h1>
             <p>{children}</p>
-            <p>{footer}</p>
+            <footer>{footer}</footer>
         </div>
     )
 }
