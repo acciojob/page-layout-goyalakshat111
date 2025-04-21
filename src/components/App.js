@@ -9,7 +9,7 @@ const App = () => {
      <Display
       header="Welcome to my website."
       children="This is the content of my website."
-      footer="&copy; 2023 My website. All rights reserved"
+      footer="© 2023 My Website. All rights reserved."
      />
     </div>
   )
